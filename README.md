@@ -1,1 +1,3 @@
 # HigherPrecision
+
+Summation of many many small numbers to a few large numbers can result in lost of precision over time. One simple solution is to use higher precision computation throughout but this may be an over-kill method if only the sum has to be accurate. Highly accurate values are sometime required but lower precision computations are faster. There are algorithms that can provide higher precision computations for sum of many values in a large dymanic range. Here are a routine that double the precision without needing the use of higher precision variables. A known usage is in the iterative improvement of the solution when solving for  ill-conditionned linear systems.
